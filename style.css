@@ -51,6 +51,14 @@ html,body {
 	display: flex;
 }
 
+.blockquote footer:before {
+    content:'';
+}
+
+.blockquote-footer {
+	background-color: white;
+}
+
 .card-columns {
 	margin-right: 5%;
 	margin-left: 5%;
